@@ -26,6 +26,10 @@ The Package Self-Service Backend is a Spring Boot application that allows users 
 - Maven
 - IDE (e.g., IntelliJ IDEA, Eclipse)
 
+### Swagger & OpenAPI Documentation paths
+1. http://localhost:8080/api-docs
+2. http://localhost:8080/swagger-ui.html
+
 ### Installation
 
 1. Clone the repository:
@@ -41,3 +45,8 @@ The Package Self-Service Backend is a Spring Boot application that allows users 
 1. Proper database implementation. 
 2. Spring Security Implementation. 
 3. Thorough integration testing. 
+
+### Docker image installation
+1. Install docker desktop
+2. Pull docker image using : docker  pull nikithamundargi/package-self-service-backend:latest
+
